@@ -1,0 +1,125 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(270deg, #273DFF 0%, rgba(0, 99, 247, 0.68) 58.61%, #273DFF 100%);
+}
+
+.outer-box{
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    left: 20vw;
+    top: 20vh;
+    background: rgba(148, 148, 255, 0.7);
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+}
+
+.right-box{
+    position: absolute;
+    width: 28vw;
+    height: 60vh;
+    left: 32vw;
+    /* top: 20vh; */
+    background: #FFFFFF;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.right-box h2{
+    position: relative;
+    top: 5vh;
+    left: 15%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.boy{
+    position: absolute;
+    width: 25vw;
+    height: 50vh;
+    left: 2.5vw;
+    top: 5vh;
+    animation-name: glide;
+    animation-iteration-count: infinite;
+    animation-duration: 2.75s;
+    animation-timing-function: linear;
+}
+
+@keyframes glide {
+    0% {top: 5vh}
+    25% {top: 4.5vh}
+    50% {top: 5vh}
+    75% {top: 5.5vh}
+    100% {top: 5vh}
+}
+
+.login{
+    color: rgba(39, 61, 255, 0.79);
+}
+
+.login-form{
+    position: relative;
+    /* border: 1px solid black; */
+    top: 8vh;
+    left: 15%;
+}
+
+.login-form div{
+    color: #5A5A5A;
+    margin-top: 4%;
+    font-weight: 400;
+    padding: 0.25rem;
+}
+
+.login-form div input{
+    margin-top: 4%;
+    position: relative;
+    border: none;
+    border-bottom: 1.5px solid #5A5A5A;
+    left: 1%;
+    padding-bottom: 1%
+}
+
+.login-form div input:focus{
+    outline: none;
+    padding-bottom: 1%;
+}
+
+.login-form div h3{
+    position: relative;
+    display: inline-block;
+    left: 35%;
+    bottom: 11%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(39, 61, 255, 0.79);
+}
+
+.login-form div button{
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    background: rgba(39, 61, 255, 0.79);
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.login-form div h2{
+    position: absolute;
+    display: inline-block;
+    left: 18%;
+    top: 88%;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: rgba(39, 61, 255, 0.79);
+}
